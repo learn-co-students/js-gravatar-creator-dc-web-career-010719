@@ -11,12 +11,11 @@ html {
   margin: 25px auto;
   padding: 20px;
   width: 500px;
-  height: 500px;
+  height: 550px;
   background-color: rgb(245, 245, 250);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
 }
 
 .field {
