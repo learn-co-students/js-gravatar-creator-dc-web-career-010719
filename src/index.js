@@ -1,5 +1,7 @@
 function handleSubmit(e) {
-
+  e.preventDefault()
+  let input = e.target.querySelector('.field').children[0].value
+  updateDOM(input)
 }
 
 document.addEventListener("DOMContentLoaded", () => {
