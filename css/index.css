@@ -83,3 +83,7 @@ input:focus {
     background-position: 0% 50%;
   }
 }
+
+#identicon > span { 
+  outline: 1px dashed #ccc;
+}
